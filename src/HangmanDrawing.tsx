@@ -80,7 +80,7 @@ const LEFT_LEG = (
   />
 );
 
-const BODY_PARTS = [HEAD, BODY, RIGHT_ARM, RIGHT_LEG, LEFT_ARM, LEFT_LEG];
+const BODY_PARTS = [HEAD, BODY, LEFT_ARM, RIGHT_ARM, LEFT_LEG, RIGHT_LEG];
 
 type HangmanDrawingProps = {
   numberOfGuesses: number;
